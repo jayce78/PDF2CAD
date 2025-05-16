@@ -78,6 +78,7 @@ def select_pdf(status_label):
 # GUI setup
 root = tk.Tk()
 root.title("PDF to DXF Converter")
+root.geometry("400x400")
 
 status_label = tk.Label(root, text="Select a PDF file to convert")
 status_label.pack(pady=10)
